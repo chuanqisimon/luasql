@@ -7,7 +7,8 @@ PREFIX ?= /usr
 LUA_SYS_VER ?= 5.2
 LUA_LIBDIR ?= $(PREFIX)/lib/lua/$(LUA_SYS_VER)
 LUA_DIR ?= $(PREFIX)/share/lua/$(LUA_SYS_VER)
-LUA_INC ?= $(PREFIX)/include/lua$(LUA_SYS_VER)
+# LUA_INC ?= $(PREFIX)/include/lua$(LUA_SYS_VER)
+LUA_INC ?= ../header
 
 # OS dependent
 UNAME_S := $(shell uname -s)
